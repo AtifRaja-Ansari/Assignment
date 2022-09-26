@@ -1,6 +1,5 @@
 //WAP to check a prime number.
 import java. util.*;
-//import java. lang.*;
 public class asgn7{
 
   public static void main(String[] args) {
