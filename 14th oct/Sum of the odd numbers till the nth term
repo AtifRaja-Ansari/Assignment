@@ -1,0 +1,23 @@
+package Assignments;
+
+import java.util.Scanner;
+
+public class SumOfOddNumbers {
+	public static void main(String args[]) {
+		
+       int N, i, sum = 0;
+       Scanner in = new Scanner(System.in);
+       System.out.print("Enter the Nth Number: ");
+       N = in.nextInt();
+       
+       for(i = 0; i <= N; i++){
+    	   if((i%2)!= 0){
+    		   sum = sum + i;
+    	   }
+    	}
+	     
+	    System.out.println("Sum of all odd numbers between 0 to "+ N + " = " + sum);
+	    }
+	}
+
+
