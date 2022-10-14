@@ -1,5 +1,7 @@
-package Assignments;
+//1.write a java program to print sum of odd numbers upto N?
 
+
+package Assignments;
 import java.util.Scanner;
 
 public class SumOfOddNumbers {
